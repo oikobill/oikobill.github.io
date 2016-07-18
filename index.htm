@@ -6,6 +6,12 @@
     <!-- Costum-made style imports -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     </head>
   <body>
       <!-- Set background image  -->
@@ -13,10 +19,21 @@
       <div class="container-fluid">
         <!-- First row with logo, name and menu -->
         <div class="row">
+          <!-- Probably best to put a menu here instead of the logo -->
           <div class="col-md-2">
-            <img class="logo" src="images/logo.png" class="img-responsive">
+            <div class="container">
+              <div class="dropdown">
+                <button class="btn btn-info dropdown btn-sm" type="button" id="menu1" data-toggle="dropdown">&#9776;
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="about.html">About</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Featured Work</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Data 8</a></li>
+                </ul>
+            </div>
+      </div>
           </div>
-          <div class="col-md-8 text-right text-uppercase">
+          <div class="col-md-10 text-right text-uppercase">
             <h1>Vasilis Oikonomou</h1>
             <h3>Data Scientist</h3>
           </div>
