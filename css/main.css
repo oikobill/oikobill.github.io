@@ -33,6 +33,7 @@ h1{
     width: 45%;
 }
 
+
 .menu_item {
 	margin-left: 80%;
     width: 20%;
@@ -43,7 +44,7 @@ h1{
 span {
     display: block;
     -moz-border-radius: 50%;
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: white;
 }
 
@@ -51,7 +52,7 @@ span {
 span:hover {
     display: block;
     -moz-border-radius: 50%;
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: coral;
 }
 
@@ -60,17 +61,6 @@ span:hover {
     width: 100%;
     height: 100%;
 }
-
-#resume {
-    width: 100%;
-    height: 100%;
-}
-
-#contact {
-    width: 100%;
-    height: 100%;
-}
-
 
 
 /*shade hover option*/
