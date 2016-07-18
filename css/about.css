@@ -1,0 +1,14 @@
+* {
+	font-family: "Indie Flower";
+	color: white;
+}
+
+.name {
+	margin-top: 0;
+	border-left: 5px;
+}
+
+.heading	{
+	background-color: coral;
+	height: 50px;
+}
