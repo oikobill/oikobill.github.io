@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
 * {
 	font-family: 'Indie Flower';
 	color: white;
@@ -26,13 +28,63 @@ h1{
     margin-bottom: 5px;
 }
 
-.photo {
-	border-radius: 100%;
-    display: block;
-    margin: auto;
-    width: 45%;
+.module {
+  background: 
+    url(https://oikobill.github.io/images/tutor_photo_.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  align-self: center;
+  border-radius: 100%;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  float: left;
 }
 
+.module:hover {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://oikobill.github.io/images/tutor_photo_.png);
+  background-size: cover;
+}
+
+.mid a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  padding:100px;
+  opacity:0;
+}
+
+.mid a:hover {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  opacity:1;
+}
+
+a {
+    text-decoration: none !important;
+}
 
 .menu_item {
 	margin-left: 80%;
@@ -76,25 +128,11 @@ ul.dropdown-menu {
 
 #icons_row {
     margin-top: 1%;
+    margin-right: 7%;
 }
 
-a.darken {
-    display: inline-block;
-    padding: 0;
-    text-align: center;
-}
-
-a.darken img {
-    display: block;
-    -webkit-transition: all 0.5s linear;
-       -moz-transition: all 0.5s linear;
-        -ms-transition: all 0.5s linear;
-         -o-transition: all 0.5s linear;
-            transition: all 0.5s linear;
-}
-
-a.darken:hover img {
-    opacity: 0.7;     
+#explanations {
+    margin-right: 7%;
 }
 
 /*shade hover option*/
