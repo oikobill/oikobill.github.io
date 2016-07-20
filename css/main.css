@@ -78,6 +78,25 @@ ul.dropdown-menu {
     margin-top: 1%;
 }
 
+a.darken {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+
+a.darken img {
+    display: block;
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.7;     
+}
+
 /*shade hover option*/
 /*#resume:hover { 
     -moz-box-shadow: 0 0 10px #140099; 
