@@ -5,14 +5,16 @@
 	color: white;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #bg {
   position: fixed; 
   top: 0; 
   left: 0; 
-    
   /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
 
 #explanations {
@@ -135,32 +137,4 @@ ul.dropdown-menu {
     margin-right: 7%;
 }
 
-/*shade hover option*/
-/*#resume:hover { 
-    -moz-box-shadow: 0 0 10px #140099; 
-    -webkit-box-shadow: 0 0 10px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#linkedin:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#contact:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#github:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#in {
-   background-color: transparent;
-}*/
 
