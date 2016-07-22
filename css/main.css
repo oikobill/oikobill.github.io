@@ -1,16 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
 * {
 	font-family: 'Indie Flower';
 	color: white;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #bg {
   position: fixed; 
   top: 0; 
   left: 0; 
-    
   /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
 
 #explanations {
@@ -26,13 +30,63 @@ h1{
     margin-bottom: 5px;
 }
 
-.photo {
-	border-radius: 100%;
-    display: block;
-    margin: auto;
-    width: 45%;
+.module {
+  background: 
+    url(https://oikobill.github.io/images/tutor_photo_.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  align-self: center;
+  border-radius: 100%;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  float: left;
 }
 
+.module:hover {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://oikobill.github.io/images/tutor_photo_.png);
+  background-size: cover;
+}
+
+.mid a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  padding:100px;
+  opacity:0;
+}
+
+.mid a:hover {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  opacity:1;
+}
+
+a {
+    text-decoration: none !important;
+}
 
 .menu_item {
 	margin-left: 80%;
@@ -76,34 +130,11 @@ ul.dropdown-menu {
 
 #icons_row {
     margin-top: 1%;
+    margin-right: 7%;
 }
 
-/*shade hover option*/
-/*#resume:hover { 
-    -moz-box-shadow: 0 0 10px #140099; 
-    -webkit-box-shadow: 0 0 10px #140099; 
-    box-shadow: 0 0 50px #140099; 
+#explanations {
+    margin-right: 7%;
 }
 
-#linkedin:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#contact:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#github:hover { 
-    -moz-box-shadow: 0 0 50px #140099; 
-    -webkit-box-shadow: 0 0 50px #140099; 
-    box-shadow: 0 0 50px #140099; 
-}
-
-#in {
-   background-color: transparent;
-}*/
 

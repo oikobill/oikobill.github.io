@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <!-- Gets all the bootstrap stuff we need for the structure -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
     <!-- Costum-made style imports -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
@@ -11,11 +12,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <title>Vasilis Oikonomou</title>
-    </head>
+    <title>Home</title>
+  </head>
   <body>
       <!-- Set background image  -->
-      <img src=images/background.jpg id="bg" class="img-responsive">
+      <img src=images/background.jpg id="bg">
       <div class="container-fluid">
         <!-- First row with logo, name and menu -->
         <div class="row">
@@ -23,7 +24,7 @@
           <div class="col-md-2">
             <div class="container">
               <div class="dropdown">
-                <button class="btn btn-info dropdown btn-sm" type="button" id="menu1" data-toggle="dropdown">&#9776;
+                <button class="btn btn-info dropdown btn-md" type="button" id="menu1" data-toggle="dropdown">&#9776;
                 </button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="about.html">About</a></li>
@@ -40,19 +41,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-              <div class="photo">
-                <img class="photo" src="images/tutor_photo_.png" class="img-responsive">
+          <div class="col-md-12 col-md-offset-4">
+                <div class="module mid">
+                  <a href="about.html">About</a>
                 </div>
-              </div>
           </div>
         </div>
          <!-- All action icons go here -->
         <div class="row" id="icons_row">
-            <div class="col-md-4">
-            </div>
             <!-- About me icon -->
-            <div class="col-md-1">
+            <div class="col-md-1 col-md-offset-4">
                 <form action="about.html">
                         <span><input type="image" src="images/about.png" id="link" name="about"></span>
                 </form>
