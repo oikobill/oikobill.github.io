@@ -1,11 +1,18 @@
 <form id="contact-form" action="//formspree.io/economou.vasilis7@gmail.com" method="post">
-	<input type="text" name="Name" placeholder="Name" required>
-	<input type="email" name="Email" placeholder="Email" required>
-	<textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
-	<!-- CONFIG -->
-	<input class="is-hidden" type="text" name="_gotcha">
-	<input type="hidden" name="_subject" value="Subject">
-	<input type="hidden" name="_cc" value="email@cc.com">
-	<!-- /CONFIG -->
-	<input class="submit" type="submit" value="Send">
+	<fieldset>
+    <legend>Personal Information</legend>
+    </br>
+    <label for="name">Name</label>
+    <input type="text" id="name"name='name'><br/></input>
+    </br>
+    <label>Email:<input type'email' name='email' placeholder="me@me.com"><br/></label>
+    </br>
+    <label>Company:<input type'text' name='company'"><br/></label>
+    </br>
+    <label class="description" for="message">Message: </label>
+    </br>
+    <textarea id="message" name="message" class="element textarea medium"></textarea>
+    <br></br>
+    <input type='submit' value="Send"></input>
+</fieldset>
 </form>
