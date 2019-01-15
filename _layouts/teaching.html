@@ -1,1 +1,25 @@
-
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<META name="description" content=""><META name="keywords" content="computer science, machine learning, statistics, deep learning, optimization">
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+				<li><a href="/teaching">Teaching</a></li>
+				<li><a href="/projects">Projects</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		{{ content }}
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+    			<li><small>© 2019, Vasilis Oikonomou</small></li>
+			</ul>
+		</footer>
+	</body>
+</html>
